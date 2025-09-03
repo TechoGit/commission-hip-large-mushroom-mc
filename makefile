@@ -11,6 +11,7 @@ CC := hipcc
 
 # source files 
 CXX_SRC := src/client.cpp src/cpu.cpp src/main.cpp src/server.cpp
+C_SRC := src/cubiomes.c cubiomes/biomenoise.c cubiomes/biomes.c cubiomes/finders.c cubiomes/generator.c cubiomes/layers.c cubiomes/noise.c cubiomes/quadbase.c cubiomes/util.c
 HIP_SRC := src/gpu.hip.cpp
 
 CXX_OBJ := $(CXX_SRC:.cpp=.obj)
